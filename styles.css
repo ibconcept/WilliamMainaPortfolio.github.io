@@ -1,0 +1,137 @@
+
+  /* Set the background color using a color code from Material Design */
+body {
+    background-color: #6200ea; /* Purple 700 */
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    color: white;
+  }
+
+  a {
+    text-decoration: none;
+    color: aqua;
+    opacity: 0.7;
+  }
+  
+.container {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.profile-img {
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+  margin-top: 20px; /* Adjust this margin to create space below the image */
+}
+
+h1 {
+  font-size: 28px;
+  color: aqua;
+}
+
+h2 {
+  font-size: 24px;
+  margin-top: 30px;
+  color: aqua;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white; /* Assuming you want white text on the black background */
+  padding: 10px;
+}
+
+ul {
+  margin-left: 20px;
+  padding-left: 10px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+/* Sticky on scroll */
+.content {
+  position: sticky;
+  top: 0;
+}
+/* This CSS rule sets the font size and color of the Font Awesome icons */
+.social-icons a i {
+  font-size: 34px; /* Adjust the size as needed */
+  color: #fffefe;    /* Set the color to your preferred value */
+  justify-content: center;
+  display: inline-block;
+}
+.social-icons {
+  display: flex;
+  justify-content: center; /* Horizontally center-align the icons */
+    margin-top: 30px;
+}
+
+.social-icons a {
+  display: inline-block; /* Ensure the anchor elements take up space horizontally */
+  margin: 0 80px; /* Add spacing between icons (adjust as needed) */
+  
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 00 auto;
+  padding: 20px;
+  }
+
+.contact-form h2 {
+  margin-top: 10;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #d35dc3;
+  border-radius: 4px;
+}
+
+.contact-form button {
+  background-color: #441744;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.footer {
+    padding: 20px;
+  text-align: center;
+}
+
+.footer a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration:pink;
+  color: aqua;
+}
