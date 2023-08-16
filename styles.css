@@ -23,8 +23,8 @@ body {
 
 .profile-img {
   position: absolute;
-  top: 30px;
-  right: 50px;
+  top: 20px;
+  right: 20px;
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -84,14 +84,14 @@ strong {
 
 .social-icons a {
   display: inline-block; /* Ensure the anchor elements take up space horizontally */
-  margin: 0 80px; /* Add spacing between icons (adjust as needed) */
+  margin: 0 30px; /* Add spacing between icons (adjust as needed) */
   
 }
 
 .contact-form {
-  max-width: 500px;
+  max-width: 500px auto;
   margin: 00 auto;
-  padding: 20px;
+  padding: 20px auto;
   }
 
 .contact-form h2 {
