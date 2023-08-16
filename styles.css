@@ -84,7 +84,7 @@ strong {
 
 .social-icons a {
   display: inline-block; /* Ensure the anchor elements take up space horizontally */
-  margin: 0 30px; /* Add spacing between icons (adjust as needed) */
+  margin: 0 10px; /* Add spacing between icons (adjust as needed) */
   
 }
 
