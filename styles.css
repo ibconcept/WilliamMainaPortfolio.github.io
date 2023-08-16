@@ -53,6 +53,7 @@ p {
   background-color: rgba(0, 0, 0, 0.2);
   color: white; /* Assuming you want white text on the black background */
   padding: 10px;
+  
 }
 
 ul {
@@ -91,7 +92,7 @@ strong {
 .contact-form {
   max-width: 300px ;
   margin: 00 auto;
-  padding: 20px;
+  padding: 0px auto;
   }
 
 .contact-form h2 {
